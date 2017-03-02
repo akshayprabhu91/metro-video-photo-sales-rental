@@ -1,0 +1,35 @@
+﻿body {
+
+}
+.btn {
+    background: #FFF;
+    border: 1px solid #000;
+    color: #000;
+    display: inline-block;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 16px 25px;
+    font-family: 'Playfair Display', serif;
+    width: 200px;
+    height: 60px;
+}
+.btn:hover {
+    background: #000;
+    color: #FFF;
+}
+.lead{
+    text-align:center;
+    margin-top:50px;
+     text-transform: uppercase;
+}
+.btn-small{
+    background: #FFF;
+    border: 1px solid #000;
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    margin-bottom:30px;
+    padding: 5px 5px;
+    text-align:center
+}
