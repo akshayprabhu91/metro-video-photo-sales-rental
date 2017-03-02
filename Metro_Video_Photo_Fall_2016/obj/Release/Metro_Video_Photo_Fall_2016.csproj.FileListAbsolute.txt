@@ -1,0 +1,5 @@
+E:\UHCL Study\By_Semester\Fall2016\SAD\MVP_Fall2016_Web_Application\Versions\11-10-2016\Metro_Video_Photo_Fall_2016\Metro_Video_Photo_Fall_2016\bin\Metro_Video_Photo_Fall_2016.dll.config
+E:\UHCL Study\By_Semester\Fall2016\SAD\MVP_Fall2016_Web_Application\Versions\11-10-2016\Metro_Video_Photo_Fall_2016\Metro_Video_Photo_Fall_2016\bin\Metro_Video_Photo_Fall_2016.dll
+E:\UHCL Study\By_Semester\Fall2016\SAD\MVP_Fall2016_Web_Application\Versions\11-10-2016\Metro_Video_Photo_Fall_2016\Metro_Video_Photo_Fall_2016\bin\Metro_Video_Photo_Fall_2016.pdb
+E:\UHCL Study\By_Semester\Fall2016\SAD\MVP_Fall2016_Web_Application\Versions\11-10-2016\Metro_Video_Photo_Fall_2016\Metro_Video_Photo_Fall_2016\obj\Release\Metro_Video_Photo_Fall_2016.dll
+E:\UHCL Study\By_Semester\Fall2016\SAD\MVP_Fall2016_Web_Application\Versions\11-10-2016\Metro_Video_Photo_Fall_2016\Metro_Video_Photo_Fall_2016\obj\Release\Metro_Video_Photo_Fall_2016.pdb

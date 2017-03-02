@@ -1,0 +1,97 @@
+﻿/*Overrided Classes*/
+
+.navbar{margin-bottom:0%;}
+
+
+
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #000000;
+}
+.ulLinks li a{cursor:pointer;}
+
+.pad2{
+    padding:2%;
+}
+
+.pad3{
+    padding:3%;
+}
+
+.pad20{
+    padding:20%;
+}
+
+.pad25{
+    padding:20%;
+}
+
+.pad30{
+    padding:30%;
+}
+
+.pad10{
+    padding:10%;
+}
+
+.mrgnT2{
+    margin-top:2%;
+}
+
+.mrgnT5{
+    margin-top:5%;
+}
+
+.mrgnT10{
+    margin-top:10%;
+}
+
+.margin15 
+{
+    margin:15%;
+}
+
+.mrgnT15{
+    margin-top:15%;
+}
+
+.center{text-align:center;}
+
+.font20{font-size:20px;}
+.font22{font-size:22px;}
+
+.title{margin-top:15%;}
+
+.txtPad{padding:8% 10% 2% 10%;}
+.yelloBg{background-color:#ffd800;}
+
+.right{float:right;}
+.left{float:left;}
+
+/*--------------------Harsh---------------*/
+
+.bold{font-weight:bold;}
+.margin20 {
+margin:20%;
+}
+
+.divTeams
+{
+    background-color: #fff; color: #000000; padding: 20px; border-radius: 4px; text-align: center; cursor: pointer;
+}

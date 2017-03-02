@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\Harsh\Desktop\test</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Application/Accounting/Default.aspx">
+      <publishTime>11/22/2016 14:02:51</publishTime>
+    </File>
+    <File Include="Application/Human_Resource/Default.aspx">
+      <publishTime>11/22/2016 14:05:38</publishTime>
+    </File>
+    <File Include="Application/Infrastructure/Default.aspx">
+      <publishTime>11/11/2016 20:23:44</publishTime>
+    </File>
+    <File Include="Application/Marketing_Sales/Default.aspx">
+      <publishTime>11/11/2016 18:02:44</publishTime>
+    </File>
+    <File Include="Application/Material_Management/Default.aspx">
+      <publishTime>11/11/2016 18:04:28</publishTime>
+    </File>
+    <File Include="Application/Operation/Default.aspx">
+      <publishTime>11/11/2016 18:05:14</publishTime>
+    </File>
+    <File Include="Application/Payroll/Default.aspx">
+      <publishTime>11/11/2016 18:05:53</publishTime>
+    </File>
+    <File Include="App_Data/Prototype.accdb">
+      <publishTime>11/11/2016 20:40:22</publishTime>
+    </File>
+    <File Include="bin/Metro_Video_Photo_Fall_2016.dll">
+      <publishTime>11/22/2016 14:51:48</publishTime>
+    </File>
+    <File Include="ChangeInfraDocument.aspx">
+      <publishTime>11/08/2016 12:41:12</publishTime>
+    </File>
+    <File Include="Controls/Applicaiton_UserControl.ascx">
+      <publishTime>11/22/2016 13:28:51</publishTime>
+    </File>
+    <File Include="Controls/DisplayTable.ascx">
+      <publishTime>11/22/2016 13:51:02</publishTime>
+    </File>
+    <File Include="css/animate/animate.css">
+      <publishTime>11/08/2016 12:42:32</publishTime>
+    </File>
+    <File Include="css/animate/set.css">
+      <publishTime>11/08/2016 12:42:34</publishTime>
+    </File>
+    <File Include="css/bootstrap.min.css">
+      <publishTime>11/08/2016 12:41:38</publishTime>
+    </File>
+    <File Include="css/datepicker.css">
+      <publishTime>11/08/2016 12:41:38</publishTime>
+    </File>
+    <File Include="css/Style.css">
+      <publishTime>11/11/2016 20:14:57</publishTime>
+    </File>
+    <File Include="Dashboard.aspx">
+      <publishTime>11/09/2016 00:42:28</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>11/11/2016 17:41:32</publishTime>
+    </File>
+    <File Include="DisplaySelectedListObject.aspx">
+      <publishTime>11/08/2016 12:41:12</publishTime>
+    </File>
+    <File Include="Home.aspx">
+      <publishTime>11/11/2016 20:21:03</publishTime>
+    </File>
+    <File Include="Images/back2.jpg">
+      <publishTime>11/08/2016 12:42:04</publishTime>
+    </File>
+    <File Include="Images/bg1.jpg">
+      <publishTime>11/08/2016 12:42:46</publishTime>
+    </File>
+    <File Include="Images/Social/social-facebook-box-blue-icon.png">
+      <publishTime>11/08/2016 12:42:34</publishTime>
+    </File>
+    <File Include="ListObject.aspx">
+      <publishTime>11/08/2016 12:41:18</publishTime>
+    </File>
+    <File Include="script/bootstrap-datepicker.js">
+      <publishTime>11/08/2016 12:42:26</publishTime>
+    </File>
+    <File Include="script/bootstrap.min.js">
+      <publishTime>11/08/2016 12:42:26</publishTime>
+    </File>
+    <File Include="script/jquery-1.11.3.min.js">
+      <publishTime>11/08/2016 12:42:30</publishTime>
+    </File>
+    <File Include="Site.Master">
+      <publishTime>11/22/2016 12:33:59</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/22/2016 14:51:49</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

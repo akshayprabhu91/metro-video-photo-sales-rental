@@ -1,0 +1,111 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Metro_Video_Photo_Fall_2016.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/Style.css" rel="stylesheet" />
+    <script src="/script/jquery-1.11.3.min.js"></script>
+    <script src="/script/bootstrap.min.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand logo" href="/Home.aspx">Metro Video Photo</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <% if (Session["user"] != null && !String.IsNullOrEmpty(Session["user"].ToString()))
+                           { %>
+
+                        <ul class="nav navbar-nav ulLinks">
+                            <li><a href="/Application/Accounting/Default.aspx">Accounting</a></li>
+                            <li><a href="/Application/Payroll/Default.aspx">Payroll</a></li>
+                            <li><a href="/Application/Material_Management/Default.aspx">Material Management</a></li>
+                            <li><a href="/Application/Human_Resource/Default.aspx">Human Resource</a></li>
+                            <li><a href="/Application/Marketing_Sales/Default.aspx">Marketing & Sales</a></li>
+                            <li><a href="/Application/Operation/Default.aspx">Operations</a></li>
+                            <li><a href="/Application/Infrastructure/Default.aspx">Infrastructure</a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Object Details
+                                <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/ListObject.aspx">List Object</a></li>
+                                    <li><a href="/DisplaySelectedListObject.aspx">Display Selected Object</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <%} %>
+                        <ul class="nav navbar-nav navbar-right">
+                            <% if (Session["user"] == null)
+                               {%>
+                            <li><a href="/Default.aspx?type=login"><span></span>Login</a></li>
+                            <%} %>
+
+                            <% if (Session["user"] != null && !String.IsNullOrEmpty(Session["user"].ToString()))
+                               {%>
+
+                            <li><a href="/Dashboard.aspx"><span></span>Dashboard</a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#"><%= name %>
+                                    <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <asp:LinkButton runat="server" Text="Logout" OnClick="Logout"></asp:LinkButton>
+                                    </li>
+                                </ul>
+                            </li>
+                            <%} %>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <div>
+            <footer class="footer pad3">
+                <div class="container">
+                    <div class="col-xs-12 col-md-4">
+                        &copy; Metro Video Photo.
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        --------
+                    </div>
+
+                    <div class="col-xs-12 col-md-4">
+                        <div class="pull-right">
+                            <a href="#">
+                                <img src="/Images/Social/social-facebook-box-blue-icon.png" />
+                            </a>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </footer>
+        </div>
+
+    </form>
+</body>
+</html>
